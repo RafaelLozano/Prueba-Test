@@ -5,9 +5,16 @@ using namespace std;
 int main(int argc, char** argv) 
 {
 	char Nombre[20];
+	int tope;
 	cout<<"Hola mundo"<<endl;
-	cout<<"Ingresa tu nombre"<<endl;
+	cout<<"Ingresa tu nombre "<<endl;
 	cin>>Nombre;
 	cout<<"Bienvenido "<<Nombre<<endl;
+	cout<<"Ingresa el limite del contador ";
+	cin>>tope;
+	for(int i=0;i<tope;i++)
+	{
+		cout<<"Cuenta: "<<i<<endl;
+	}
 	return 0;
 }
