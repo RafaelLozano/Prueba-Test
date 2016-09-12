@@ -4,6 +4,10 @@ using namespace std;
 
 int main(int argc, char** argv) 
 {
+	char Nombre[20];
 	cout<<"Hola mundo"<<endl;
+	cout<<"Ingresa tu nombre"<<endl;
+	cin>>Nombre;
+	cout<<"Bienvenido "<<Nombre<<endl;
 	return 0;
 }
