@@ -16,5 +16,7 @@ int main(int argc, char** argv)
 	{
 		cout<<"Cuenta: "<<i<<endl;
 	}
+	cout<<"Finalizacion del programa"<<endl;
+	system("pause");
 	return 0;
 }
